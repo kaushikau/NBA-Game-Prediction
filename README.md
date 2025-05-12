@@ -1,2 +1,5 @@
-# NBA-Game-Prediction
-SJSU CMPE 257 Final Project
+# NBA Outcome Predictor
+
+*Kaushika Uppu, Yun Ei Hlaing, Iris Cheung, Miranda Billawala*
+
+The National Basketball Association (NBA) is one of the most well-known sports leagues, with a widespread global fanbase. With the rise of machine learning and statistical modeling, data-driven sports analytics has become more and more common, and the vast availability of past NBA game data as well as the league’s popularity makes game forecasting a profitable and appealing task. The main objective of this project was to be able to predict the winner of an NBA game matchup given two teams and by using past game data. With that objective in mind, we had a two-step process to achieve this. Our goal was to use two machine learning models to first develop a preliminary model that can predict game statistics using historical NBA game data, and to then use those as inputs into our final model to determine the most likely game winner. The second objective was our use case, which was to use these models to predict the 2024-25 NBA playoffs winner. For game outcome prediction, we found that the XGBoost model with hyperparameter tuning had the best performance, with an accuracy of 0.685, precision of 0.683, and recall of 0.69.
